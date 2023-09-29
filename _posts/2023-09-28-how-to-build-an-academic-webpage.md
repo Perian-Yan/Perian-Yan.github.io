@@ -87,14 +87,15 @@ width=500 %}
 
 
 ## Deploy webpage to Github Pages
-To deploy the website to Github Pages, I just followed the instructions [al-folio Deployment](https://github.com/alshedivat/al-folio#deployment).
+To deploy the website to Github Pages, I just followed the instructions [al-folio Deployment](https://github.com/alshedivat/al-folio#deployment). It will automatically deploy everything, which may take 1-2 minutes. If it fails to deploy, you can run workflow manually. 
 
 ## Enjoy!
-See the [tutorial video](https://www.youtube.com/watch?v=g6AJ9qPPoyc) for editing the template. 
-
 Now everytime I change my page, I can view it locally. To view it in Github Pages, just `git push`!
 
-## Remark
+### edit config file
+Check the [tutorial video](https://www.youtube.com/watch?v=g6AJ9qPPoyc) to see how to edit the template. 
+
+### insert images in posts
 The side-effect of disabling imagemagick is that I can not use markdown version to insert images.
 
 ```md
@@ -102,3 +103,7 @@ The side-effect of disabling imagemagick is that I can not use markdown version 
 ```
 
 The workaround is to follow the [template](https://alshedivat.github.io/al-folio/projects/1_project/), use html and always store images under `assets`. More details at [Bootstrap-Grid](https://getbootstrap.com/docs/5.3/layout/grid/) and [Bootstrap-Images](https://getbootstrap.com/docs/5.3/content/images/).
+
+
+### edit cv
+Changing `_data/cv.yml` has no effects on the webpage because `resume.json` will first be used if it's defined in `_config.yml`. To load the contents of `_data/cv.yml`, just commet out lines below "Get external JSON data" in `_config.yml`. See this [discussion](https://github.com/alshedivat/al-folio/discussions/1611).

@@ -7,6 +7,9 @@
     #  value: 
     - name: Languages
       value: Chinese, English
+    - name: Academic Interests
+      value: Control Theory, System Identification, Robotics, Optimization
+
 
 - title: Education
   type: time_table
@@ -33,7 +36,7 @@
       institution: Autonomous Systems Lab, ETH Zürich
       year: Jun 2023 - 
       description:
-        - Visual-Predictive Models for Manipulating Granular Materials, under the supervision of Nikhilesh Alatur, Dr. Olov Andersson, Dr. Helen Oleynikova, and Prof. Roland Siegwart.
+        - Visual-Predictive Models for Manipulating Granular Materials.
         - Set up a robotic cube-pushing simulation environment with multi-cameras in Isaac Sim Orbit.
         - Trained a convolutional autoencoder using Pytorch.
         - Collected real data with Franka Emika Panda and the depth camera (Pico Monstar) by developing a planner under MoveIt framework.
@@ -42,31 +45,35 @@
       institution: Automatic Control Lab (IfA) ETH Zürich
       year: Jul 2022 - Oct 2022
       description:
-        - Transversal Hyperplane Selection in Identification of Local Limit Cycle Dynamics, under the supervision of Mingzhou Yin and Prof. Roy Smith.
+        - Transversal Hyperplane Selection in Identification of Local Limit Cycle Dynamics.
         - Developed a non-convex optimization algorithm to select hyperplanes for identification.
         - Implemented the proposed algorithm and kernel-based identification on numerical examples including the Van der Pol oscillator and a periodic trajectory generated from closed-loop control.
         - Used Matlab optimization tools such as fmincon and particleswarm.
 
+- title: Honours and Awards
+  type: time_table
+  contents:
+    - year: 2020
+      items: 
+        - Ultra High Voltage Scholarship, State Grid of China
+    - year: 2019
+      items: 
+        - China National Scholarship, Chinese Ministry of Education
+    - year: 2018
+      items: 
+        - China National Scholarship, Chinese Ministry of Education
 
-# - title: Honors and Awards
-#   type: time_table
+# - title: Academic Interests
+#   type: list
 #   contents:
-#     - year: 2020
-#       items: 
-#         - "Ultra High Voltage" Scholarship
-#     - year: 2019
-#       items: 
-#         - China National Scholarship
-#     - year: 2018
-#       items: 
-#         - China National Scholarship
+#     - Control Theory, System Identification, Robotics, Optimization
 
 # - title: Academic Interests
 #   type: nested_list
 #   contents:
 #     - title: Topic 1.
 #       items: 
-#         - Description 1.
+#         - Manipulation
 #         - Description 2.
 #     - title: Topic 2.
 #       items:
