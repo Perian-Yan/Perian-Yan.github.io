@@ -1,12 +1,6 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - Perian-Yan
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - Perian-Yan/Introduction-to-ROS
+  - Perian-Yan/Introduction-to-machine-learning
