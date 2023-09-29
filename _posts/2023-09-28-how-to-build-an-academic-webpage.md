@@ -4,7 +4,7 @@ title:  How to Build an Academic Webpage
 date:   2023-09-28
 description: setup Jekyll theme al-folio on Windows
 tags: tools
-categories: tools
+categories: 
 ---
 I use the Jekyll theme: [al-folio](https://github.com/alshedivat/al-folio) to build my academic page. My system is Windows 10, and I spent some time to finally setup the page on local host and the Github Pages. 
 
@@ -46,7 +46,7 @@ width=500 %}
 
 This is because MiniRacer does not support Windows anymore (see [MiniRacer](https://github.com/rubyjs/mini_racer#supported-ruby-versions--troubleshooting)).
 
-The problem, however, can be resolved by commenting out mini_racer in the Gemfile and installing [Node.js](https://nodejs.org/en/download), see this [thread](https://github.com/alshedivat/al-folio/issues/691#issuecomment-1309072582) for more details.
+The problem, however, can be resolved by commenting out mini_racer and adding `gem 'wdm', '~> 0.1.0'` in the Gemfile, and installing [Node.js](https://nodejs.org/en/download), see this [thread](https://github.com/alshedivat/al-folio/issues/691#issuecomment-1309072582) for more details.
 
 ---
 The next step is to install Jupyter, otherwise it will cause errors when you run `jekyll serve` later:
@@ -101,4 +101,4 @@ The side-effect of disabling imagemagick is that I can not use markdown version 
 ![Some text](image.png)
 ```
 
-The workaround is to follow the [template](https://alshedivat.github.io/al-folio/projects/1_project/), use html and always store images under `assets`.
+The workaround is to follow the [template](https://alshedivat.github.io/al-folio/projects/1_project/), use html and always store images under `assets`. More details at [Bootstrap-Grid](https://getbootstrap.com/docs/5.3/layout/grid/) and [Bootstrap-Images](https://getbootstrap.com/docs/5.3/content/images/).
