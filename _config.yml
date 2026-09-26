@@ -80,7 +80,7 @@ telegram_username: # your Telegram user name
 scholar_userid: # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
-orcid_id: # your ORCID ID
+orcid_id: 0000-0003-0661-7135 # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
@@ -108,7 +108,7 @@ zotero_username: # your zotero username
 wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 
 contact_note: >
-  Please reach me through Email: kaiyan (at) student (dot) ethz (dot) ch. 
+  Please reach me through Email: klyanem15 (at) gmail (dot) com. 
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -124,9 +124,9 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Perian's Notes # blog_name will be displayed in your blog page
+blog_name: My Pensieve # blog_name will be displayed in your blog page
 blog_nav_title: Blog # your blog must have a title for it to be displayed in the nav bar
-blog_description: a whiteboard
+blog_description: 
 permalink: /blog/:year/:title/
 
 # Pagination
