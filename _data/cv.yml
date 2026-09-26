@@ -6,17 +6,21 @@
     # - name: Date of Birth
     #  value: 
     - name: Languages
-      value: Chinese, English
+      value: 中文, English, Deutsch
     - name: Academic Interests
-      value: Control Theory, System Identification, Robotics, Optimization
+      value: Robotic In-Hand Manipulation, Control Theory, System Identification, Optimization
 
 
 - title: Education
   type: time_table
   contents:
+    - title: Ph.D. candidate in Mechanical Engineering
+      institution: Harbin Institute of Technology (HIT), Shenzhen, China
+      year: Mar 2026 - Present
+
     - title: M.Sc. in Robotics, Systems and Control
       institution: ETH Zürich, Zürich, Switzerland
-      year: Sep 2021 - Present
+      year: Sep 2021 - Nov 2024
       # description:
       #   - Description 1.
       #   - Description 2.
@@ -34,7 +38,7 @@
   contents:
     - title: Master Thesis Student
       institution: Autonomous Systems Lab, ETH Zürich
-      year: Jun 2023 - 
+      year: Jun 2023 - Jan 2024
       description:
         - Visual-Predictive Models for Manipulating Granular Materials.
         - Set up a robotic cube-pushing simulation environment with multi-cameras in Isaac Sim Orbit.
@@ -50,9 +54,22 @@
         - Implemented the proposed algorithm and kernel-based identification on numerical examples including the Van der Pol oscillator and a periodic trajectory generated from closed-loop control.
         - Used Matlab optimization tools such as fmincon and particleswarm.
 
+- title: Internship
+  type: time_table
+  contents:
+    - title: Control Engineering Intern
+      institution: BOSCH, Renningen, Germany
+      year: Mar 2024 - Sep 2024
+      description:
+        - Stability proof for adaptive noise control of the electric machine.
+        - Validate control methods in the Simulink and on the testbench (with dSpace).
+
 - title: Honours and Awards
   type: time_table
   contents:
+    - year: 2022
+      items:
+        - ETH Zürich International Student Scholarship
     - year: 2020
       items: 
         - Ultra High Voltage Scholarship, State Grid of China
